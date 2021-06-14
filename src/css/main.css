@@ -1,0 +1,32 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  color: #ffff;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #000000;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(49, 243, 0);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+
+body {
+  background-color: rgba(0, 0, 0, 0.658);
+  position: relative;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-image: url(https://cdn.discordapp.com/attachments/841789440967704576/848605286599491584/2021-05-30_18.png);
+}
+

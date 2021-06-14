@@ -1,0 +1,104 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#invite {
+    display: flex;
+    justify-content: center;
+    width: 550px;
+    height: 550px;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+#invite span {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: white;
+    font-size: 60px;
+    text-shadow: 5px 5px black;
+}
+
+
+.ip {
+    border: #7cbd1e 4px solid;
+    border-radius: 25px;
+    padding: 10px;
+    width: 180px;
+    background: none;
+
+    margin: 0 5px 0 5px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    color: white;
+    font-size: 26px;
+    text-shadow: 2px 2px black;
+
+}
+
+.dsc {
+    border: #7cbd1e 4px solid;
+    border-radius: 25px;
+    padding: 10px;
+    width: 150px;
+    background: none;
+
+    margin: 0 5px 0 5px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    color: white;
+    font-size: 26px;
+    text-shadow: 2px 2px black;
+}
+
+.dsc:hover,
+.ip:hover {
+    box-shadow: 0 0 20px #7cbd1e;
+}
+
+#logo-img {
+    display: flex;
+    width: 550px;
+    height: 550px;
+    animation: float 6s ease-in-out infinite;
+}
+
+@keyframes float {
+    0% {
+        transform: translatey(0px);
+    }
+
+    50% {
+        transform: translatey(-20px);
+    }
+
+    100% {
+        transform: translatey(0px);
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+
+
+    #invite {
+        width: 300px !important;
+
+    }
+
+    #invite button {
+        margin: 10px !important;
+
+    }
+
+    /* main */
+
+    #right-container,
+    #main-container {
+        margin: 0 auto 0 auto;
+    }
+
+}

@@ -1,0 +1,163 @@
+#navbar {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    height: 100px;
+    align-items: center;
+
+    background-color: #26323896;
+    border: black 2px solid;
+    border-radius: 25px;
+    margin: 5px auto 0 auto;
+}
+
+.stick {
+    transition-delay: 0.1s;
+    transition-duration: 1s;
+    display: flex;
+    border-top-right-radius: 0 !important;
+    border-top-left-radius: 0 !important;
+    margin: 0% !important;
+    height: 50px !important;
+    position: fixed !important;
+    top: 0;
+    width: 100% !important;
+    z-index: 100;
+    margin: 0 auto 0 auto !important;
+}
+
+.stick #logo-nav {
+    width: 124px;
+    height: 62px;
+}
+
+#logo-nav {
+    margin: 0 0 0 100px;
+    width: 187px;
+    height: 93px;
+    display: flex;
+}
+
+#navbar ul {
+    display: flex;
+    margin: 0 100px 0 0;
+}
+
+#navbar ul li {
+    margin: 0 10px 0 10px;
+    font-size: 1.5rem;
+    list-style: none;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    color: white;
+}
+
+li a:hover {
+    text-shadow: 0 0 20px #7cbd1e;
+}
+
+.rwd-nav {
+    background-color: #263238e1 !important;
+    margin: 0;
+    
+    flex-direction: column;
+    justify-content: center;
+    z-index: 100;
+    position: fixed !important;
+    top: 0 !important;
+    height: 100% !important;
+    width: 100% !important;
+}
+
+.rwd-nav a {
+    font-size: 50px !important;
+}
+
+.rwd-nav ul {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rwd-nav #logo-nav {
+    margin: 100px;
+}
+
+#link-box {
+    margin: 0 auto 0 auto !important;
+}
+
+.rwd-nav #links-box {
+
+    
+    margin: 0 auto 0 auto !important;
+    text-align: center;
+    
+}
+
+.rwd-nav #links-box {
+    margin: 0;
+}
+
+.rwd-nav #logo-nav {
+    margin: 0px !important;
+    display: none;
+}
+
+
+#menu, #close {
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+
+    #logo-img {
+        display: none !important;
+    }
+
+    #links-box ul {
+        display: none;
+    }
+
+    #navbar #link-box{
+        margin-top: 200px !important;
+    }
+
+    #logo-nav {
+        margin: 0 0 0 25px;
+        width: 125px;
+        height: 62px;
+
+    }
+    #close,
+    #menu i {
+        margin: 0 25px 0 0;
+        font-size: 30px;
+    }
+
+    #close {
+        position: absolute;
+        right: 0;
+        top: 20px;
+        float: right;
+        border: none;
+        background: none;
+    }
+
+    #close i {
+        margin: 0 25px 0 0;
+        font-size: 30px;
+    }
+
+    #menu {
+        display: block;
+        border: none;
+        background: none;
+    }
+
+}

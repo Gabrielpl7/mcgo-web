@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Gabriel Ziemacki">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>MCGO.pl | Strona główna</title>
+
+
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+
+    <!-- FONT -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,500;1,300&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+
+
+
+    <!-- ICONS -->
+    <link rel="icon" href="src/img/logo.png">
+    <script src="https://kit.fontawesome.com/30c4093b70.js" crossorigin="anonymous"></script>
+
+
+    <!-- SCRIPT -->
+    <script src="src/js/navbar.js"></script>
+
+
+</head>
+
+<body>
+
+    <nav id="navbar">
+
+        <img id="logo-nav" src="src/img/logo.png" alt="">
+
+        <div id="links-box">
+
+
+            <button onclick="return mobilemenu()" id="menu" href=""><i class="fas fa-bars"></i></button>
+            <button onclick="return mobilemenu()" id="close" href=""><i class="fas fa-times"></i></button>
+
+
+            <ul id="link-box">
+                <li><a href="sklep.html" style="color: green; text-decoration: underline;">Sklep</a></li>
+                <li><a href="#">Regulamin</a></li>
+                <li><a href="#">Statystyki</a></li>
+                <li><a href="#">Forum</a></li>
+                <li><a href="#">Rangi</a></li>
+            </ul>
+
+        </div>
+
+    </nav>
+
+
+
+
+
+    <div id="shop-box">
+
+        <div id="sms-box">
+
+            <h2>Doładowania SMS</h2>
+
+            <div class="sms">
+
+                <span>Doładowanie 5 zł</span>
+                <button>Doładuj</button>
+            </div>
+            <hr>
+            <div class="sms">
+
+                <span>Doładowanie 5 zł</span>
+                <button>Doładuj</button>
+            </div>
+            <hr>
+            <div class="sms">
+
+                <span>Doładowanie 5 zł</span>
+                <button>Doładuj</button>
+            </div>
+            <hr>
+            <div class="sms">
+
+                <span>Doładowanie 5 zł</span>
+                <button>Doładuj</button>
+            </div>
+            <hr>
+            <div class="sms">
+
+                <span>Doładowanie 5 zł</span>
+                <button>Doładuj</button>
+            </div>
+            <hr>
+            <div class="sms">
+
+                <span>Doładowanie 5 zł</span>
+                <button>Doładuj</button>
+            </div>
+            <hr>
+
+
+        </div>
+
+        <div id="paybylink-box">
+
+            <h2>Płatności internetowe</h2><br>
+
+            <span id="range-value">5zł</span><br>
+            <p>Kwota doładowania</p>
+            
+            <input id="slider-range" type="range" min="5" max="200" step="5" value="5" onchange="vr()"><br>
+            <br>
+            <input placeholder="Wprowadz nick z serwera" type="text"><br>
+            <input placeholder="Wprowadz email" type="text"><br><br><br>
+
+            <p>Dokonaj płatności za pomocą:</p><br>
+            <button class="bnt-pay"> Przelew/PayPal </button><br><br>
+            <button class="bnt-pay"> Paysafecard </button>
+
+        </div>
+
+        <div id="last-pay">
+            
+            <h2>Ostatni zakup</h2>
+
+            <div id="img-box">
+                <img src="https://minotar.net/avatar/EspaniololxPl/100" alt="">
+                <img src="https://minotar.net/avatar/EspaniololxPl/100" alt="">
+                <img src="https://minotar.net/avatar/EspaniololxPl/100" alt="">
+                <img src="https://minotar.net/avatar/EspaniololxPl/100" alt="">
+                <img src="https://minotar.net/avatar/EspaniololxPl/100" alt="">
+                <img src="https://minotar.net/avatar/EspaniololxPl/100" alt="">
+                <img src="https://minotar.net/avatar/EspaniololxPl/100" alt="">
+                <img src="https://minotar.net/avatar/EspaniololxPl/100" alt="">
+                <img src="https://minotar.net/avatar/EspaniololxPl/100" alt="">
+                <img src="https://minotar.net/avatar/EspaniololxPl/100" alt="">
+                <img src="https://minotar.net/avatar/EspaniololxPl/100" alt="">
+                <img src="https://minotar.net/avatar/EspaniololxPl/100" alt="">
+                <img src="https://minotar.net/avatar/EspaniololxPl/100" alt="">
+                <img src="https://minotar.net/avatar/EspaniololxPl/100" alt="">
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="src/js/shop.js"></script>
+
+
+    <footer>
+        <div id="footer">
+
+            <span>MCGO.PL - Najlepszy serwer minigier w Polsce</span>
+
+            <hr style="width: 30%;">
+            <div id="links">
+
+                <a href="#">
+                    <div id="link">
+                        <i class="fab fa-facebook"></i>
+                    </div>
+                </a>
+
+                <a href="#">
+                    <div id="link">
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                </a>
+
+                <a href="#">
+                    <div id="link">
+                        <i class="fab fa-discord"></i>
+                    </div>
+                </a>
+
+                <a href="https://github.com/Gabrielpl7">
+                    <div id="link">
+                        <i class="fas fa-code"></i>
+                    </div>
+                </a>
+
+            </div>
+            <p style="margin-top: 10px;">Serwer MCGO.PL nie jest w żaden sposób powiązany z Mojang, AB. |
+                <a>Regulamin</a> & <a>Polityka</a> </p>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
+
+<!-- 
+Code by Gabriel Ziemacki from rgcode.pl
+Discord: Gabriel ;)#0033
+Email: gabrielziemacki@gmail.com
+Github: https://github.com/Gabrielpl7 
+-->
