@@ -1,0 +1,50 @@
+.rules-box {
+    margin: 100px auto 100px auto;
+    background-color: white;
+    width: 80%;
+    
+    border-radius: 25px;
+    padding: 10px 50px 10px 50px;
+    display: none;
+    color: black !important;
+
+}
+
+.rules-box h1 {
+    padding: 20px;
+}
+
+#minecraft-btn, #discord-btn {
+    color: black;
+    width: 300px;
+    height: 100px;
+}
+
+
+#minecraft-rules {
+    display: block;
+} 
+
+#discord-rules {
+    display: none;
+}
+
+.rules-box h1 {
+    color: black;
+}
+
+.rules-box a {
+    color: black;
+}
+
+.rules-box p {
+    color: black;
+}
+
+.rules-box span {
+    color: black;
+}
+
+.rules-box h3 {
+    color: black;
+}

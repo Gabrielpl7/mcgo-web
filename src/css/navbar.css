@@ -13,16 +13,17 @@
 }
 
 .stick {
-    transition-delay: 0.1s;
-    transition-duration: 1s;
+    transition-delay: 0.5s;
+    transition-duration: 2s;
+    transition-property: 0.3s;
     display: flex;
     border-top-right-radius: 0 !important;
     border-top-left-radius: 0 !important;
     margin: 0% !important;
+    width: 100% !important;
     height: 50px !important;
     position: fixed !important;
     top: 0;
-    width: 100% !important;
     z-index: 100;
     margin: 0 auto 0 auto !important;
 }

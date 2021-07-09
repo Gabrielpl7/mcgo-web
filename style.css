@@ -2,7 +2,10 @@
 @import url("./src/css/navbar.css");
 @import url("./src/css/index-header.css");
 @import url("./src/css/index-main.css");
-@import url(./src/css/slider.css);
-@import url(./src/css/footer.css);
-@import url(./src/css/other.css);
-@import url(./src/css/shop.css);
+@import url("./src/css/slider.css");
+@import url("./src/css/footer.css");
+@import url("./src/css/other.css");
+@import url("./src/css/shop.css");
+@import url("./src/css/statistics.css");
+@import url("./src/css/rangi.css");
+@import url("./src/css/rules.css");

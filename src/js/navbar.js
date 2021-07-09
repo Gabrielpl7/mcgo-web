@@ -2,7 +2,7 @@ window.addEventListener("scroll", function () {
 
     if (screen.width > 600) {
         var nav = document.querySelector("nav")
-        nav.classList.toggle("stick", window.scrollY > 0)
+        nav.classList.toggle("stick", window.scrollY > 50)
     } 
 })
 
