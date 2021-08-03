@@ -1,8 +1,8 @@
-function vr () {
+var valuetext = document.getElementById("range-value")
+var getvalue = document.getElementById("slider-range")
 
-    var valuetext = document.getElementById("range-value")
-    var getvalue = document.getElementById("slider-range").value
-
-    valuetext.innerHTML = getvalue + "zł"
-
+const shownumber = () => {
+    valuetext.textContent = getvalue.value + "zł"
 }
+
+getvalue.addEventListener('mousemove', shownumber)

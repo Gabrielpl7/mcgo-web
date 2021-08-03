@@ -13,9 +13,7 @@
 }
 
 .stick {
-    transition-delay: 0.5s;
-    transition-duration: 2s;
-    transition-property: 0.3s;
+
     display: flex;
     border-top-right-radius: 0 !important;
     border-top-left-radius: 0 !important;
@@ -61,6 +59,17 @@ li a:hover {
     text-shadow: 0 0 20px #7cbd1e;
 }
 
+.shop-text {
+    text-shadow: 0 0 20px #7cbd1e;
+}
+
+@keyframes float {
+    from {background-color: red;}
+    to {background-color: yellow;}
+}
+
+
+
 .rwd-nav {
     background-color: #263238e1 !important;
     margin: 0;
@@ -94,8 +103,6 @@ li a:hover {
 }
 
 .rwd-nav #links-box {
-
-    
     margin: 0 auto 0 auto !important;
     text-align: center;
     

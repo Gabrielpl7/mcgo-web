@@ -40,7 +40,7 @@
 
     <nav id="navbar">
 
-        <img id="logo-nav" src="src/img/logo.png" alt="">
+        <a href="index.html"><img id="logo-nav" src="src/img/logo.png" alt=""></a>
 
         <div id="links-box">
 
@@ -50,11 +50,11 @@
 
 
             <ul id="link-box">
-                <li><a href="sklep.html" style="color: green; text-decoration: underline;">Sklep</a></li>
-                <li><a href="#">Regulamin</a></li>
-                <li><a href="#">Statystyki</a></li>
-                <li><a href="#">Forum</a></li>
-                <li><a href="#">Rangi</a></li>
+                <li><a class="shop-text" style="text-shadow: 0 0 10px gold;" href="sklep.html">Sklep</a></li>
+                <li><a href="regulamin.html">Regulamin</a></li>
+                <li><a href="statystyki.html">Statystyki</a></li>
+                <li><a href="https://discord.gg/RW5x3GABz2">Discord</a></li>
+                <li><a href="rangi.html">Rangi</a></li>
             </ul>
 
         </div>
@@ -67,7 +67,44 @@
 
     <div id="shop-box">
 
-        <div id="sms-box">
+        
+
+        <div id="paybylink-box">
+
+            <h2>Płatności internetowe</h2><br>
+
+            <span id="range-value">5zł</span><br>
+            <p>Kwota doładowania</p>
+
+            <input id="slider-range" type="range" min="5" max="200" step="5" value="5" on="vr()" onchange="vr()"><br>
+            <br>
+            <input placeholder="Wprowadź nick z serwera" type="text"><br>
+            <input placeholder="Wprowadź e-mail" type="text"><br><br><br>
+
+            <p>Dokonaj płatności za pomocą:</p><br>
+          
+            <button class="bnt-pay"> Paysafecard </button>
+
+        </div>
+
+        <div id="paybylink-box">
+
+            <h2>Płatności internetowe</h2><br>
+
+            <span id="range-value">5zł</span><br>
+            <p>Kwota doładowania</p>
+
+            <input id="slider-range" type="range" min="5" max="200" step="5" value="5" on="vr()" onchange="vr()"><br>
+            <br>
+            <input placeholder="Wprowadź nick z serwera" type="text"><br>
+            <input placeholder="Wprowadź e-mail" type="text"><br><br><br>
+
+            <p>Dokonaj płatności za pomocą:</p><br>
+            <button class="bnt-pay"> Przelew/PayPal </button><br><br>
+           
+
+        </div>
+<div id="sms-box">
 
             <h2>Doładowania SMS</h2>
 
@@ -110,27 +147,8 @@
 
 
         </div>
-
-        <div id="paybylink-box">
-
-            <h2>Płatności internetowe</h2><br>
-
-            <span id="range-value">5zł</span><br>
-            <p>Kwota doładowania</p>
-            
-            <input id="slider-range" type="range" min="5" max="200" step="5" value="5" onchange="vr()"><br>
-            <br>
-            <input placeholder="Wprowadz nick z serwera" type="text"><br>
-            <input placeholder="Wprowadz email" type="text"><br><br><br>
-
-            <p>Dokonaj płatności za pomocą:</p><br>
-            <button class="bnt-pay"> Przelew/PayPal </button><br><br>
-            <button class="bnt-pay"> Paysafecard </button>
-
-        </div>
-
         <div id="last-pay">
-            
+
             <h2>Ostatni zakup</h2>
 
             <div id="img-box">
