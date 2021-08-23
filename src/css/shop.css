@@ -66,7 +66,7 @@
     margin: 20px;
 }
 
-#range-value {
+#range-value, #range-value2 {
     font-size: 24px;
     text-shadow: black 5px;
 }
