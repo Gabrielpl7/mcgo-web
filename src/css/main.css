@@ -21,12 +21,14 @@
   background: #555;
 }
 
-
 body {
-  background-color: rgba(0, 0, 0, 0.658);
-  position: relative;
-  background-attachment: fixed;
+  background-color: rgba(95, 18, 18, 0.658);
+  background-position: center;
   background-repeat: no-repeat;
-  background-image: url(https://cdn.discordapp.com/attachments/841789440967704576/848605286599491584/2021-05-30_18.png);
+  background-size: cover;
+  background-attachment: fixed;
+  background-image: url(../img/2021-05-30_18_1.png);
+  
+ 
 }
 

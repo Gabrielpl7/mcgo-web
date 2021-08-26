@@ -34,9 +34,50 @@
     <script src="src/js/navbar.js"></script>
 
 
+    
+
+    <script async src="src/js/loader.js"></script>
+
+
 </head>
 
 <body>
+
+    <div class="loader">
+
+        <center>
+        <img src="https://cdn.discordapp.com/attachments/442292013308575756/880115911649030174/Webp.net-gifmaker_1.gif" alt="">
+        </center>
+
+    </div>
+
+    <!-- Messenger Wtyczka czatu Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Wtyczka czatu code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "108074251564662");
+      chatbox.setAttribute("attribution", "biz_inbox");
+
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v11.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/pl_PL/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
 
     <nav id="navbar">
 
@@ -44,15 +85,12 @@
 
         <div id="links-box">
 
-
             <button onclick="return mobilemenu()" id="menu" href=""><i class="fas fa-bars"></i></button>
             <button onclick="return mobilemenu()" id="close" href=""><i class="fas fa-times"></i></button>
-
 
             <ul id="link-box">
                 <li><a class="shop-text" style="text-shadow: 0 0 10px gold;" href="sklep.html">Sklep</a></li>
                 <li><a href="regulamin.html">Regulamin</a></li>
-                <li><a href="statystyki.html">Statystyki</a></li>
                 <li><a href="https://discord.gg/RW5x3GABz2">Discord</a></li>
                 <li><a href="rangi.html">Rangi</a></li>
             </ul>
@@ -118,9 +156,11 @@
 
         <div id="right-container">
 
-            <div class="container">
+            <!-- <div class="container"> -->
 
-                <h3>Status serwerów</h3>
+                <iframe src="https://discord.com/widget?id=722871902099734550&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+
+                <!-- <h3>Status serwerów</h3>
 
                 <div class="server-box">
                     <span class="name">Bedwars</span>
@@ -148,10 +188,10 @@
                 <div class="server-box">
                     <span class="name">Bedwars</span>
                     <span class="online-count">Online: 300</span>
-                </div>
+                </div> -->
 
 
-            </div>
+            <!-- </div> -->
 
         </div>
     </main>
